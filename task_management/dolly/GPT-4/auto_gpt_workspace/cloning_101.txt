@@ -1,0 +1,18 @@
+Cloning 101:
+
+Clones have access to all the powers and tools you do. They are more powerful than ai_agents. They can access the internet and run commands just like you. Consider cloning instead of the start_agent command.
+
+How to clone yourself:
+1. Choose a name for the clone: <clone_name> and create an instructions_<clone_name>.txt file with instructions for the clone. The instructions must be clear and in line with your goal. The clone will use them to know what you want them to do.
+2. Create the settings file for the clone using the command: sed 's/{ai_name}/<clone_name>/g' ai_settings_clone_template.yaml > ai_settings_clone_<clone_name>.yaml.
+3. Executing the following command via popen: cd .. && MEMORY_INDEX=auto-gpt-<clone_name> python -m autogpt -c -l 5 -C ./auto_gpt_workspace/ai_settings_clone_<clone_name>.yaml --debug
+
+How to see clones progress:
+- IMPORTANT: Communication can get messy, so you MUST keep track of your clones. You must append all your activities to activity_<your_name>.txt, and your clones shall do the same.
+- You can keep track of what your clones are doing by reading activity_<clone_name>.txt
+
+How to message the clone:
+- Use instructions_<clone_name>.txt to update your clone's instructions
+
+How to kill clones:
+- You cannot kill clones at this time. They will only execute for five cycles.
