@@ -1,0 +1,6 @@
+- Read cloning_101.txt to learn to access your cloning ability. Use this skill to clone yourself and delegate tasks to clones if necessary.
+- Create a clone that searches Google, Twitter, and Reddit for information on "Auto-GPT" success stories and saves the information to "results_<clone_name>.txt" with references in the form of links to the original websites and articles. Whenever it uses "Auto-GPT" in Google searches, it must use quotes (") for exact matches. Append results to "results_<your_name>.txt."
+- Create another clone that critiques the output of the first clone by following the links outlined in results_<clone_name>.txt. It should append results to "critique_<clone_name>.txt."
+- Coordinate the clones to create a catalog of recent Auto-GPT success stories with references.
+- Read local files to see progress made and continue working on those files where applicable.
+- Do not take any backups. do not clone git repos.
