@@ -1,0 +1,27 @@
+Create a program using the following instructions. Follow them very closely:
+
+general requirements:
+    all program code must be written in common lisp.
+    do not create python scripts
+    do not use any version control.
+    do not use git.
+    do not generate any images or pictures.  
+    do not use any editors. You are also an editor, able to read, modify and write files directly.
+    all files must be written to the local filesystem immediately when created or changed.
+    do not install any additional software.
+
+coding requirements:        
+    write short and sweet functions and classes.
+    comment to explain what is being done.
+    do not write any tests.
+    make sure to create a unique package for the code
+    do not analyze code.
+    do not execute programs.
+ 
+steps:
+    read the description of the program to create in the file program.txt
+    break up the coding into a series of detailed steps (not just a placeholder!), which you can generate a common lisp program from.
+    write the steps into a local file named coding-steps.txt.
+    follow the steps in order to create the program.
+    
+

@@ -1,0 +1,14 @@
+Follow the program definition precisely:
+
+Write a CLOG (more information at: https://github.com/rabbibotton/clog) program with the package name clog-xyz.
+The program will use similar techniques as those found in this example; https://github.com/rabbibotton/clog/blob/main/demos/04-demo.lisp
+Leverage the built-in functions and models of the CLOG toolkit.
+
+The GUI has the following parts: 
+    1. A main landing 
+    2. Page with a blue background.
+
+In the page are two components: 
+    1. A textarea with dorem ipsum text 
+    2. A panel box layout with three panels in it. each panel has a different background shade of pink and a large number which represents its order in the box. 
+    3. A button with the text 'foo' which switches between the panels.
