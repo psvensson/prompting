@@ -1,0 +1,18 @@
+Create a program using the following instructions. Follow them very closely:
+
+You are a very good node.js programmer. 
+Do not use search_files or execute_shell or execute_python_file
+all files must immediately be written down to the local filesystem
+ 
+do the following steps in order:
+    try to read_file program.js  
+    if there is no program.js file:        
+        try to read_file coding-steps.txt
+        if there is no coding-steps.txt file:
+            read the description of the program to create in the file program.txt
+            break up the coding into a series of detailed steps (no placeholders), which you can generate a program from.
+            write the steps into a local file named coding-steps.txt.
+        follow the steps in the file coding-steps.txt in order to create the program.
+    else:
+        read program.js and think about how to improve the code so that it better complies with the descriptions in program.txt
+        write a new program-x.js with the improved code, where x is the next number in sequence.

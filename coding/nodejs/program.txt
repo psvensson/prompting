@@ -1,0 +1,4 @@
+Write a node.js program which implement REST APIs to manage userProfile and Company objects.
+Verify input on API endpoints when creating ot modifying objects.
+The User object has properties id, name, email, profile and shoesize
+The Company object has properties id, name, address, employees (of type User).
