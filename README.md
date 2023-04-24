@@ -13,7 +13,7 @@ For example, for the coding prompts, the main file is called instructions.txt an
 ## Technicalities
 
 It is easy to ask for too much and better results is found with very clear and limited instructions. So again in the coding example, the instructions explicitly avoids testing or execution of external programs, just the generation of code.
-This muight not be a smart move. it might be better to start with testing, who knows. Please test and try out what works better for you.
+This might not be a smart move. it might be better to start with testing, who knows. Please test and try out what works better for you.
 
 One important factor which is often overlooked is to modify the temperature setting of the AI when trying to get good results back. Temperatue is a bit like creativity or randomness. I get the ffeling that lower tmperatures (like 0.4 (from the standard 1.0)) with very clear instruction give better results.
 
