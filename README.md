@@ -2,6 +2,11 @@
 
 A collection of instruction ot be sent to LLM AIs for different purposes.
 
+## Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+
 ## Overview
 
 These files are currently geared towards being used with AutoGPT (https://github.com/Significant-Gravitas/Auto-GPT) and so starts out with a file called ai_settings.yaml.
