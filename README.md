@@ -20,3 +20,10 @@ One important factor which is often overlooked is to modify the temperature sett
 ## How to use
 
 Finally, these files can of course just be pasted together (modifying the references to external files then obviously) and sent to any old LLM, local or external. There is nothing specific about AutoGPT except for the ai_settings format. But that is genric enought to be parsed by any modern AI.
+
+## Other resources
+
+Here are some other examples of AutoGPT (or other) promting:
+
+1. https://github.com/samuelbutler/wonda
+
