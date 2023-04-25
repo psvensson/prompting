@@ -5,6 +5,16 @@ A collection of instruction ot be sent to LLM AIs for different purposes.
 ## Contributors
 
 <!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/psvensson">
+            <img src="https://avatars.githubusercontent.com/u/39554?v=4" width="100;" alt="psvensson"/>
+            <br />
+            <sub><b>Peter Svensson</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
 
 ## Overview
