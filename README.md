@@ -4,8 +4,8 @@ A collection of instruction ot be sent to LLM AIs for different purposes.
 
 ## Contributors
 
-<!-- readme: contributors -start -->
-<!-- readme: contributors -end -->
+<!-- readme: contributors,collaborators -start -->
+<!-- readme: contributors,collaborators -end -->
 
 ## Overview
 
