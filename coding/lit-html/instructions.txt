@@ -1,0 +1,35 @@
+Create a program using the following instructions. Follow them very closely:
+
+general rules which must be adhered to at all times:
+    You are a very good front-end developer.
+    Do not write any back-end code, only front-end!
+    Do not use execute_python_file
+    Do no start any server!
+    Do not write any code in python!
+    all files must immediately be written down to the local filesystem
+    the argument to search_files is called directory
+ 
+instructions:   
+    if there is no file named steps.txt:
+        Write a detailed descritpion of how to write the webb application according to this description;
+            Write a webpage front-end using the following rules:
+            It should be used to list and edit companies and which employees they have. 
+            All components should be written in lit.html.
+            It will interact with server-side API using the redux pattern.
+            The APIs are REST-based and provide access to Company and User objects.
+            User has the properties name, email, id, profilePicture.
+            Company has the properties name, id, address, users (reference to User objects)
+            Write custom components in lit-html to encapsulate custom behavior.
+            There should be a list of companies which is loaded from a server-side API.
+            When a company is selected by the user, its details should be shown to the side in an editable way.
+            One of the details is which users work at the company. This is also a list populated from another server-side API.
+            It should be possible to add and remove users from the list.
+            When adding users, another list with users to seleted from should be shown to select from. This should also be populated from another server-side API.
+        Write the detailed description to the local file steps.txt
+    else:
+        if there are no files in the output folder:
+            Read the instructions in steps.txt and Write the files of the resulting web application in the output folder.
+            Each file of the web application must be written exactly once.
+        else:
+            Read the files in the output directory and decide if changes or additions are needed to comply with the detailed instructions.
+            If you need to update a file, you must first delete it, then write a new version of the file.   
